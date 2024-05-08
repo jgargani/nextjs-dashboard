@@ -10,8 +10,6 @@ import { Revenue } from '@/app/lib/definitions';
 // https://airbnb.io/visx/
 
 export default function RevenueChart({ revenue }: { revenue: Revenue[] }) {
-  console.log('<RevenueChart>');
-
   const chartHeight = 350;
   // NOTE: comment in this code when you get to this point in the course
 
